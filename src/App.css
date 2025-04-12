@@ -1,8 +1,8 @@
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background-image:url("https://thumbs.dreamstime.com/b/spring-flower-background-branches-blossoming-flowers-pink-backdrop-empty-space-text-springtime-natural-flat-lay-363398326.jpg");
-    background-size: 400% 400%;
+    background-image:url("https://d1csarkz8obe9u.cloudfront.net/posterpreviews/flower-background%2C-frame-flower%2C-background-design-template-7d49cdfb094d8ca33b480b2de9ec1e3c_screen.jpg?ts=1630420906");
+    background-size: cover;
     color: #333;
 }
 @keyframes gradientAnimation {
@@ -13,7 +13,7 @@ body {
 h1 {
     text-align: center;
     font-size: 3rem;
-    color: #fff;
+    color:wh;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     margin-top: 50px;
 }
@@ -23,7 +23,7 @@ button {
     padding: 15px 30px;
     font-size: 1.2rem;
     font-weight: bold;
-    color: #fff;
+    color: #0a0774;
     background: #6a11cb;
     background: linear-gradient(to right, #6a11cb, #2575fc);
     border: none;
@@ -53,6 +53,12 @@ button:hover {
 .card:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    border: 2px solid #ff758c;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .card h2 {
     font-size: 1.5rem;
@@ -62,4 +68,77 @@ button:hover {
     font-size: 1rem;
     color: #666;
     line-height: 1.5;
+}
+.login {
+    background: whitesmoke;
+    color: rgb(126, 2, 58);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+
+}
+.register {
+    background: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(126, 2, 58);
+
+}
+.text{
+    font-size: 1rem;
+    color: rgb(126, 2, 58);
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    justify-content: center;
+    align-items: center;
+}
+.aa {
+    font-size: 1rem;
+    color: #3bf5ff;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+    text-size-adjust: auto;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.bb{
+    font-size: 1rem;
+    color: #3bf5ff;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+    text-size-adjust: auto;
+    justify-content: center;
+    align-items: center;
 }
